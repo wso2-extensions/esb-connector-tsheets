@@ -9,8 +9,8 @@ Pre-requisites:
 Tested Platform:
 
  - Microsoft WINDOWS V-7
- - UBUNTU 13.04, Mac OSx 10.9
- - WSO2 ESB 4.9.0
+ - UBUNTU 13.04, Mac OSx 10.9, 14.04
+ - WSO2 ESB 4.9.0, 5.0.0-BETA
  - Java 1.7
 
 Note:
@@ -20,7 +20,7 @@ Note:
 
 Steps to follow in setting integration test.
 
- 1. Download ESB 4.9.0 and compress ESB as wso2esb-4.9.0.zip and copy that zip file in to location "{TSHEETS_HOME}/repository/".
+ 1. Download ESB  5.0.0-BETA, add "-XX:-UseSplitVerifier" under $JVM_MEM_OPTS into {ESB_HOME}/bin/wso2server.sh" and compress ESB as wso2esb- 5.0.0-BETA.zip and copy that zip file in to location "{TSHEETS_HOME}/repository/".
 
  2. Follow the below steps to create a TSheets account.
 
@@ -39,9 +39,9 @@ Steps to follow in setting integration test.
 
  5. Update the TSheets properties file at location "{TSHEETS_HOME}/src/test/resources/artifacts/ESB/connector/config" as below.
 
-	 i) apiUrl			-	Use the API URL as "https://rest.tsheets.com".
+	 i) apiUrl              -   Use the API URL as "https://rest.tsheets.com".
 	ii) accessToken			-	Place the accesstoken obtained in step 3[i].
-       iii) jobCodeOneName 		-	Name of a job code.
+    iii) jobCodeOneName     -	Name of a job code.
 	iv) jobCodeTwoName		-	Name of a job code.
 	 v) timeSheetType		-	Type of the Timesheet.
 
