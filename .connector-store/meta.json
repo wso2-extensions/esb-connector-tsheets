@@ -4,7 +4,7 @@
     "category": "Productivity Tools",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/TSheets+Connector",
     "description": "The TSheets connector allows you to access the TSheets REST API through the WSO2 ESB. TSheets is a time tracking application designed and engineered for companies across multiple industries that need to track, manage and report time.",
-    "status": "Active",
+    "status": "Inactive",
     "labels": [
         "connector"
     ],
